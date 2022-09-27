@@ -1,0 +1,80 @@
+Work3
+
+デベロッパーツールでサイトにどんなタグが使われているか確認してみよう！
+
+
+サイトで
+■ナビゲーションメニュー、ロゴにどんなタグが使われているか確認しよう。
+
+スカイラークのサイト
+https://www.skylark.co.jp/
+
+ロゴ（左上　スカイラークのロゴ箇所）
+
+
+    <img src="/site_resource/common/images/header/logo_skylark_gloup.png" alt="すかいらーく">
+
+
+    -webkit-text-size-adjust: 100%;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    line-height: 1;
+    color: #000;
+    border-style: none;
+    box-sizing: border-box;
+    vertical-align: top;
+    word-break: break-all;
+    word-wrap: break-word;
+
+
+ナビゲーションメニュー（最新ニュース・株主・投資家の皆様・・・）
+
+
+<p style="font-size:12px;color:#990000;font-weight:bold;">※株主・投資家の皆様への情報、企業情報、サステナビリティ情報は、すかいらーくホールディングスサイトへ移動しました。</p>
+
+
+    -webkit-text-size-adjust: 100%;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    text-align: right;
+    line-height: 2;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 12px;
+    color: #990000;
+    font-weight: bold;
+
+タイトル箇所（オレンジ色のニュース）の箇所
+
+<span class="_en mod-text-en">NEWS</span>
+
+
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    line-height: 1;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    word-break: break-all;
+    word-wrap: break-word;
+    display: block;
+    font-size: 2.375rem;
+    color: #ff7200;
+
+All ABOUT SKYLARKのセクションの中の「３億人」の文字
+
+<div class="txt"><span class="num">3</span>億人</div>
+
+  
+  -webkit-text-size-adjust: 100%;
+    color: #222;
+    font-family: "Noto Sans","Noto Sans JP","Meiryo","Verdana","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka","ＭＳ Ｐゴシック","sans-serif";
+    text-align: center;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0 50px;
+    background: url(/Portals/0/images/index/ico_fukidashi_left.png) left bottom no-repeat,url(/Portals/0/images/index/ico_fukidashi_right.png) right bottom no-repeat;
+    font-size: 166.7%;
+    line-height: 1;
+    font-weight: bold;
+
