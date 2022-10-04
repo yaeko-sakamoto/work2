@@ -39,7 +39,7 @@ img {
 }
 
 
-.body {
+.div {
     max-width: 960px;
     display: flex;
     justify-content: space-between;
@@ -68,9 +68,9 @@ h1 {
 
 @media screen and (max-width: 767px) {
 
-    .body {
+    .div {
         display: block;
-        padding: 20pt 0px;
+        padding: 20px 0px;
     }
 
     .menu {
@@ -81,9 +81,9 @@ h1 {
 .menu li {
     padding: 10px 10px;
     border-bottom: 1px solid black;
-    width: 100%;
 }
 .menu li+ li {
     border-left: none;
 }
-    }
+
+}
